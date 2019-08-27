@@ -20,3 +20,19 @@ export default function(state=initialStates.items, action){
             return state;
     }
 }
+
+
+// export default function(state=initialStates.items, action){
+//     let {type, payload} = action;
+//     switch(type){
+//         case "ADD_ITEM":
+//             state = [...state, payload];
+//             return state;
+//         case "REMOVE_ITEM":
+//             state.splice(payload,1);  //payload is index from where item has to be removed
+//             state = JSON.parse(JSON.stringify(state));
+//             return state;
+//         default:
+//             return state;
+//     }
+// }
