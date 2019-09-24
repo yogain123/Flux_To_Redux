@@ -41,10 +41,18 @@ class App extends Component{
       itemNodes.push(<Item items={this.state.items} item={item} />);
     }
     return (
+      <>
+      <ul>
+      <li><a href = "https://github.com/yogain123/Flux_To_Redux">Star</a></li>
+      <li><a href = "https://github.com/yogain123/Flux_To_Redux">Fork</a></li>
+      <li><a href = "https://github.com/yogain123/Flux_To_Redux">Contribute</a></li>
+      </ul>
+
       <div className="wrapper">
         <h2 onClick={this.addItem}>Click to add an Item</h2>
         {itemNodes}
       </div>
+      </>
     );
   }
 };
