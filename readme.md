@@ -16,11 +16,3 @@ npm start
 
 ## DEMO
 https://flux-redux-migrate.herokuapp.com/
-
-## Acknowledgments
-
-https://medium.com/gumgum-tech/migrating-from-flux-to-redux-f234b80fc608
-
-https://gist.github.com/edrpls/0d0aba51ef704063527da9539ed65720
-
-https://codepen.io/orvis/pen/mVXLbb
